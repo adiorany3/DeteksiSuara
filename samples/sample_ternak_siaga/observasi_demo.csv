@@ -1,0 +1,6 @@
+﻿id,kandang,batuk_per_10_menit,jumlah_gejala,suhu_c,skor_harapan,status_harapan,sumber
+SAMPLE-001,Kandang Demo,12,2,40.3,82,Prioritas tinggi,SIMULASI
+SAMPLE-002,Kandang Demo,6,0,39.6,28,Perlu dipantau,SIMULASI
+SAMPLE-003,Kandang Demo,0,0,38.6,0,Sinyal rendah,SIMULASI
+SAMPLE-004,Kandang Demo,,0,38.8,,Data belum lengkap,SIMULASI
+SAMPLE-005,Kandang Demo,0,1,38.5,15,Prioritas tinggi,SIMULASI
