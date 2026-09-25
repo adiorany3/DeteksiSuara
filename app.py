@@ -10,6 +10,11 @@ from risk import assess
 
 st.set_page_config(page_title="Ternak Siaga • Peringatan Dini", page_icon="🐄", layout="wide")
 st.markdown("""<style>
+/* ponytail: app DOM only; update selectors after Streamlit upgrades, self-host for external branding. */
+#MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"],
+[data-testid="stStatusWidget"], [data-testid="stAppDeployButton"],
+[data-testid="stMainMenu"], [data-testid="stBadge"], .stAppDeployButton,
+.viewerBadge_container__r5tak {display:none!important}
 .stApp {background:#f4f7f6;color:#173d38}
 .block-container {padding-top:2.2rem;max-width:1440px;padding-bottom:4rem}
 [data-testid="stSidebar"] {background:#e6efeb;border-right:1px solid #ccdcd5}
